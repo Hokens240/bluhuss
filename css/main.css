@@ -1,4 +1,31 @@
 
+:root {
+  --graytext: #95a1ac;
+  --secondary-400: #ee8b60;
+  --gray500: #7c8791;
+  --primary: #4b39ef;
+  --dark-600: #1a1f24;
+  --medium-blue: #3124a1;
+  --dark_600: #262d34;
+  --dark_800: #14181b;
+  --tertiary: #39d2c0;
+  --light_alternate: #dee2ed;
+  --white: white;
+  --black-700: #1d2429;
+  --black-900: #090f13;
+  --tertiary600: #249689;
+  --light-background: #f8faff;
+  --primary-30: rgba(75, 57, 239, .3);
+  --line: #323b45;
+  --primary200: #9489f5;
+  --gradient-1: #ffb6f5;
+  --error: #e65454;
+  --gradient-2: #ffedc4;
+  --tertiary-600: #c3724c;
+  --size: 8px;
+  --size-2: 12px;
+}
+
 /* ==========================================================================
    #FONT
    ========================================================================== */
@@ -178,11 +205,8 @@ h6 {
 }
 
 .bg-gra-02 {
-  background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079));
-  background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
-  background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+  background-image: linear-gradient(45deg, var(--primary), var(--secondary-400));
+  /* 132deg */
 }
 
 /* ==========================================================================
